@@ -5,6 +5,51 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* navbar  */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(8, 0, 0);
+    padding: 4px;
+    margin: auto;
+   
+}
+
+.heading{
+    color: #fff;
+    font-size: 220%;
+    margin-left: 6px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    background: #000000;
+    padding: 6px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    margin-right: 12px;
+    color: rgb(254, 254, 255);
+}
+.heading h2{
+    color: rgb(251, 253, 253);
+    font-size: 75%;
+}
+
+/* top banner  */
+.top-banner{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+/* top section  */
+.top-section{
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 60px;
+}
+
 h1{
     font-size: 60px;
 }
@@ -23,6 +68,7 @@ section{
 
 .half-width{
     width: 50%;
+    margin-top: 100px;
 }
 
 .half-width img{
